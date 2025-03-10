@@ -1,0 +1,184 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f5f5f5;  /* Off-white background */
+    color: #333;  /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #2a4d35; /* Pine Green */
+    padding: 1rem 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar .logo a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ffffff;  /* White logo text */
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #ffffff; /* White navigation text */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+    color: #f8d7a3; /* Very Light Orange on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #2a4d35;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #2a4d35;
+}
+
+.cta-button {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    background-color: #f8d7a3; /* Very Light Orange */
+    color: #2a4d35; /* Pine Green text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #2a4d35; /* Pine Green */
+    color: #ffffff; /* White text */
+}
+
+/* Section Styles */
+.section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;  /* White background for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #2a4d35; /* Pine Green */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2a4d35; /* Pine Green */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #2a4d35; /* Pine Green */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+button {
+    padding: 12px;
+    background-color: #2a4d35; /* Pine Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f8d7a3; /* Very Light Orange */
+    color: #2a4d35; /* Pine Green */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2a4d35; /* Pine Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #f8d7a3; /* Very Light Orange for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
